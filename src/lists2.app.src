@@ -1,7 +1,12 @@
 {application, lists2,
  [
   {description, ""},
-  {vsn, git},
+  {vsn, "1.0"},
   {registered, []},
-  {env, []}
+  {applications, [
+                  kernel,
+                  stdlib
+		 ]},
+  {env, []},
+  {modules, []}
  ]}.
